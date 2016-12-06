@@ -64,7 +64,6 @@ exports.arraysAnswers = {
     let s = new Set(arr),
         dup = [];
     s.forEach((el)=>{
-      console.log(this);
       if(this.count(arr, el) > 1){
         dup.push(el);
       }
